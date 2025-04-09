@@ -8,6 +8,7 @@ int main(){
     char estado;
     char cidade[20];
     char codigo[5];
+    float media1, media2;
 
     printf("*** Bem vindo ao Super Trunfo! ***\n");
 
@@ -27,6 +28,12 @@ int main(){
     printf("Digite o PIB da sua Carta 1: \n");
     scanf("%f", &PIB);
 
+    media1 = (populacao / KM);
+    printf("A Densidade populacional da carta 1 é: %.2f HAB/KM²\n", media1 );
+    media2 = (PIB / populacao);
+    printf("O PIB per Capita da carta 1 é: %2.f Reais\n", media2);
+
+
 
 
     printf("Digite o Estado da Carta 2: \n");
@@ -43,6 +50,19 @@ int main(){
     scanf("%d", &NPT);
     printf("Digite o PIB da sua Carta 2: \n");
     scanf("%f", &PIB);
+
+    media1 = (populacao / KM);
+    printf("A Densidade populacional da carta 2 é: %.2f HAB/KM²\n", media1 );
+    media2 = (PIB / populacao);
+    printf("O PIB per Capita da carta 2 é: %2.f Reais\n", media2);
+
+
+
+
+
+
+
+
 
     return 0;
 
