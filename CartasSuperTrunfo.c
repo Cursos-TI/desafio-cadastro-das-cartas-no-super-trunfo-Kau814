@@ -8,7 +8,7 @@ int main(){
     char estado;
     char cidade[20];
     char codigo[5];
-    float media1, media2;
+    float media1, media2, supertrunfo1, supertrunfo2;
 
     printf("*** Bem vindo ao Super Trunfo! ***\n");
 
@@ -57,8 +57,8 @@ int main(){
     printf("O PIB per Capita da carta 2 é: %2.f Reais\n", media2);
 
 
-
-
+    printf("Carta 1 > Carta 2: %d\n", supertrunfo1 > supertrunfo2);
+    printf("Carta 1 < Carta 2: %d\n", supertrunfo1 < supertrunfo2);
 
 
 
